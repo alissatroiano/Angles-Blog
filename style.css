@@ -1,0 +1,259 @@
+body{
+background-color: #f4f4f4;
+font-size: 1.2em;
+}
+
+#app{
+
+/* for testing*/
+// border: solid 2px #444;
+width: 90%;
+margin:auto;
+overflow: hidden;
+
+}
+
+/* for  mobile*/
+
+
+@media (min-width: 1150px) {
+#app {
+width: 80%;
+margin: auto;
+// border: solid .3em #239B6F;
+}
+}
+
+.headLine{
+margin-top: 5vh;
+height: 20vh;
+text-align:center;
+font-family: 'Roboto Slab', serif;
+font-weight: 300;
+font-size: 120%;
+  margin-bottom: 10vh;
+}
+
+
+
+
+.box {
+font-family: 'Roboto Slab', serif;
+font-size: 90%;
+}
+
+
+
+
+
+.title{
+font-weight: 700;
+font-size: 180%;
+font-family: 'Playfair Display', serif;
+text-decoration: underline;
+}
+
+ @media (max-width: 650px) {
+ .title {
+width: 65%;
+   font-size: 120%;
+ }
+ }
+
+.grid {
+display: grid;
+// border: 2px blue solid;
+height: 3000px;
+width: 900px;
+margin:auto;
+/*   row/column */
+grid-template: repeat(30, 1fr) / repeat(12, 1fr);
+}
+
+// @media (max-width: 650px) {
+// .grid {
+
+// }
+// }
+
+img {
+max-width:100%;
+/*   border: 3px solid #444 */
+
+}
+
+
+
+//  .e, .f,  .h, .i, .k, .l, .n, .o{
+//   display:none;
+// }
+
+// .g, .h, .i, .j, .k, .l, .m, .n, .o{
+//   display:none;
+// }
+
+
+
+
+/* image elements for each section */
+.a {
+grid-row-start: 1;
+grid-row-end:5;
+grid-column-start: 3;
+grid-column-end: 13;
+z-index: 1;
+
+}
+
+
+/* set one: repurposed living */
+
+
+.b {
+grid-row-start: 2;
+grid-row-end: 3;
+grid-column-start: 2;
+grid-column-end: 4;
+z-index: 6;
+
+}
+
+.c {
+grid-row-start: 4;
+grid-row-end: 5;
+grid-column-start: 1;
+grid-column-end: 4;
+z-index: 6;
+
+}
+/* end repurposed living */
+
+
+/* set 2: angles */
+.d {
+grid-row-start:5;
+grid-row-end: 12;
+grid-column-start:1;
+grid-column-end: 7;
+z-index: 2;
+
+}
+
+.e {
+grid-row-start: 7;
+grid-row-end: 9;
+grid-column-start:6;
+grid-column-end: 10;
+z-index: 6;
+
+
+}
+
+.f {
+grid-row-start: 9;
+grid-row-end: 10;
+grid-column-start:7;
+grid-column-end: 10;
+z-index: 6;
+
+}
+
+/*end set 2: angles */
+
+
+/* set 3: pattern play */
+
+.g {
+grid-row-start: 11;
+grid-row-end: 16;
+grid-column-start:3;
+grid-column-end: 13;
+z-index: 3;
+
+}
+
+.h {
+grid-row-start: 12;
+grid-row-end: 14;
+grid-column-start: 2;
+grid-column-end: 5;
+z-index: 6;
+
+
+}
+
+
+.i {
+grid-row-start: 14;
+grid-row-end: 15;
+grid-column-start: 1;
+grid-column-end: 4;
+z-index: 6;
+
+}
+
+/* end pattern play */
+
+
+
+/* set 4: healing house */
+.j{
+grid-row-start: 15;
+grid-row-end: 22;
+grid-column-start: 1;
+grid-column-end: 7;
+z-index: 4;
+
+}
+
+
+.k{
+grid-row-start: 17;
+grid-row-end: 19;
+grid-column-start: 6;
+grid-column-end: 10;
+z-index: 6;
+
+
+}
+
+.l{
+grid-row-start: 19;
+grid-row-end: 20;
+grid-column-start: 7;
+grid-column-end: 9;
+z-index: 6;
+
+}
+/* end healing house */
+
+/* set 5: curved perfection */
+.m{
+grid-row-start: 21;
+grid-row-end: 27;
+grid-column-start: 3;
+grid-column-end: 13;
+z-index: 5;
+}
+
+
+.n{
+grid-row-start: 22;
+grid-row-end: 24;
+grid-column-start: 2;
+grid-column-end: 5;
+z-index: 6;
+
+
+}
+
+.o{
+grid-row-start: 24;
+grid-row-end: 26;
+grid-column-start: 1;
+grid-column-end: 4;
+z-index: 6;
+
+}
+
+/* end curved perfection */
